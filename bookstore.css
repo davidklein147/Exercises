@@ -3,12 +3,15 @@ body {
     font-weight: 800;
     padding: 15px;
 }
+*{
+    box-sizing: border-box;
+}
 h1 {
     font-size: 2.5em;
     color: rgb(142,40,0);
-    bottom : rgb(255,176,59);
-     
+    border-bottom: rgb(255,176,59) ;   
 }
+
 h2 {
     font-size: 1.9em;
     color: rgb(182,73,38);
@@ -18,16 +21,28 @@ h3 {
     color: rgb(70,137,102);
     
 }
+hr {
+    background-color: rgb(255,176,59);
+    color: rgb(255,176,59);
+    height: 1px;
+    border-width: 0px;
+    
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(1, 46, 3);
 }
 
 nav ul li {
     float: left;
+    box-sizing: border-box;
+    width: 24.5%;
+    margin: 0.25%;
+    font-size: 2em;
 }
 
 nav ul li a {
@@ -38,6 +53,16 @@ nav ul li a {
     text-decoration: none;
     background-color:rgb(70,137,102);
 }
+button{
+    margin-top:41px ;
+    display: block;
+    color: rgb(255,240,165);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:rgb(70,137,102);
+}
+}
 
 nav ul li a:hover {
     background-color: rgb(255,240,165);
@@ -46,4 +71,54 @@ nav ul li a:hover {
 
 footer {
     text-align: center;
+}
+
+.form{
+    font-size: 26px;
+    color: rgb(182,73,38);
+    margin-top: 3px;
+    
+}
+.form1{
+    border:3px ridge rgb(204, 17, 11);
+    background-color: white;
+    
+}
+@media (min-width:700px){
+
+}
+.form1:hover{
+    border: 2px double black;
+    background-color: aliceblue;
+  
+}
+
+.prepossion{
+    height: 40px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.possion{
+    position: relative;
+    /* left: 200px; */
+}
+
+.possion1{
+    width: 200px;
+    position: absolute;
+    top: 15%;
+
+}
+.possion2{
+   left: 205px;
+    position: absolute;
+    
+
+}
+
+.span {
+   display: inline-block;
+  width: 200px;
+  margin: 0px;
 }
