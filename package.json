@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "html",
+=======
+  "name": "exercises",
+>>>>>>> 24b21c09ae873b4dbd14360c0718855d28044276
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,8 +21,12 @@
   },
   "homepage": "https://github.com/davidklein147/Exercises#readme",
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap": "^4.5.3",
     "font-awesome": "^4.7.0"
+=======
+    "bootstrap": "^4.5.3"
+>>>>>>> 24b21c09ae873b4dbd14360c0718855d28044276
   }
 }
